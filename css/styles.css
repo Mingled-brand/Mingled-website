@@ -36,3 +36,7 @@ footer a:hover {
 .my-box {
 	padding-bottom: 10px;
 }
+
+.image {
+	object-fit: contain;
+}
