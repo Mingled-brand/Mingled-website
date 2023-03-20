@@ -18,7 +18,7 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #976099;
+	background-color: #022859;
 }
 
 /* Effect on social media buttons */
@@ -39,4 +39,33 @@ footer a:hover {
 
 .image {
 	object-fit: contain;
+}
+.card-body {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 0px 20px 0 rgba(0,0,0,0.2);
+    background-color: #E3C766;
+    transition: 0.3s;
+ }
+.btn {
+	background-color: #976099 !important 
+}
+.bg-light {
+	background-color: #F55355 !important
+}
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../images/pexels-helena-lopes-708440.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
