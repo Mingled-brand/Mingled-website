@@ -23,10 +23,10 @@
   <body class="h-100 d-flex flex-column">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+   <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="images/logo_final.png" width="50" alt="Breda University of Applied Sciences">
+          <img src="images/logo_onlyword.png" width="50" height="50" class="rounded-circle">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,30 +34,29 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link navigation-headlines" href="index.html">Home</a>
+              <a class="nav-link  navigation-headlines" aria-current="page" href="index.html">Home</a>
             </li>
-            <li class="nav-item dropdown navigation-headlines">
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle navigation-headlines" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Discover
               </a>
-              <ul class="dropdown-menu navigation-headlines" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item navigation-headlines" href="hero.html">Expat Guide</a></li>
-                <li><a class="dropdown-item navigation-headlines" href="carousel.html">Articles</a></li>
-                <li><hr class="dropdown-divider navigation-headlines"></li>
-                <li><a class="dropdown-item navigation-headlines" href="two-columns.html">Mingle Maker</a></li>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="hero.html">Expat-Guide</a></li>
+                <li><a class="dropdown-item" href="carousel.html">Articles</a></li>
+				<li><a class="dropdown-item" href="herominglemaker.html">Mingle-Maker</a></li>
               </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link navigation-headlines" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">Community</a>
             </li>
+			 <li class="nav-item">
+              <a class="nav-link navigation-headlines" href="cards.html">Events</a>
+            </li>
+			 <li class="nav-item">
+              <a class="nav-link navigation-headlines" href="aboutus.html">About us</a>
+            </li>
             <li class="nav-item">
-              <a class="nav-link navigation-headlines" href="corporate.html">Events</a>
-            </li>
-			  <li class="nav-item">
-              <a class="nav-link navigation-headlines" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">About us</a>
-            </li>
-			  <li class="nav-item">
-              <a class="nav-link navigation-headlines" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">Corporate</a>
+              <a class="nav-link navigation-headlines" href="corporate.html">Corporate</a>
             </li>
           </ul>
         </div>
