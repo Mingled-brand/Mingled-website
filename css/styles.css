@@ -182,4 +182,23 @@ body, html {
 
 /*try-out ends*/
 
+.colorpalette-red {
+	color: #F55355
+}
+
+.colorpalette-purple {
+	color: #976099
+}
+
+.colorpalette-blue {
+	color: #022859
+}
+
+.colorpalette-yellow {
+	color: #D99B29
+}
+
+.colorpalette-white {
+	color: #F2E8D5
+}
 
