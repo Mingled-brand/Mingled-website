@@ -114,7 +114,7 @@ body, html {
 /* Dies ist der Flip-Card-Container. */
 .flip-card-horizontal, .flip-card-vertical {
   width: 400px;
-  height: 284px;
+  height: 200px;
   background-color: transparent;
   perspective: 1000px; /* Diese Zeile entfernen, wenn Sie keinen 3D-Effekt wünschen. */
 }
@@ -204,5 +204,10 @@ body, html {
 	color: #F2E8D5
 }
 
+.heading-font {
+font-family: scriptorama-markdown-jf, sans-serif !important;
+font-style: normal;
+font-weight: 400;
+}
 
 
