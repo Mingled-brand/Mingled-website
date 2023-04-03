@@ -59,7 +59,7 @@ body, html {
 
 .bg {
   /* The image used */
-  background-image: url("../images/pexels-helena-lopes-708440.jpg");
+  background-image: url("../images/landingpagebackground.png");
 
   /* Full height */
   height: 100%;
@@ -201,4 +201,6 @@ body, html {
 .colorpalette-white {
 	color: #F2E8D5
 }
+
+
 
