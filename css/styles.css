@@ -121,7 +121,7 @@ body, html {
 
 /* In diesem Container werden die Flip-Cards (Front- und Rückseite) platziert. */
 .flip-card-inner {
-  box-shadow: 10px 20px 15px silver;
+  box-shadow: 10px 20px 15px #674799;
   position: relative;
   width: 100%;
   height: 100%;
@@ -136,7 +136,9 @@ body, html {
 }
 
 /* Eine weitere Definition für den Flip, wenn die Drehung VERTIKAL geschehen soll. */
-.flip-card-vertical:hover .flip-card-inner {
+.flip-card-vertical:hover 
+
+.flip-card-inner {
   transform: rotateX(180deg);
 }
 
@@ -208,5 +210,13 @@ body, html {
 font-family: "scriptorama-markdown-jf", sans-serif;
 font-weight: 400;
 	font-style: normal;
+}
+
+.column-span {
+	column-span: all
+}
+
+.centered-writing {
+	align-content: center
 }
 
