@@ -162,7 +162,10 @@ body, html {
 
 /* Der folgende Code definiert die Ansicht der Flip-Card-Rückseite. */
 .flip-card-back {
-  padding: 20px 10px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px ;
+  padding-top: 20px;
   background-color: #F2E8D5;
 }
   
@@ -223,3 +226,6 @@ font-weight: 400;
 	align-content: center
 }
 
+.font-size {
+	font-size: 80px
+}
