@@ -13,7 +13,7 @@
     <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
-    <title>PRJ4 Base Group Template &mdash; Hero Section UX</title>
+    <title>Mingle Website &mdash; Mingle-Maker</title>
 
     <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
 
@@ -22,7 +22,7 @@
   </head>
   <body class="h-100 d-flex flex-column">
 
-    <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
+   <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -36,16 +36,6 @@
             <li class="nav-item">
               <a class="nav nav-link  navigation-headlines" aria-current="page" href="index.html">Home</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav nav-link dropdown-toggle navigation-headlines" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Discover
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="expat-guide.html">Expat-Guide</a></li>
-                <li><a class="dropdown-item" href="articles.html">Articles</a></li>
-				<li><a class="dropdown-item" href="events.html">Events</a></li>
-              </ul>
-            </li>
 			 <li class="nav-item">
               <a class="nav nav-link navigation-headlines" href="minglemaker.html">Mingle-Maker</a>
             </li>
@@ -55,11 +45,20 @@
             <li class="nav-item">
               <a class="nav nav-link navigation-headlines" href="corporate.html">Corporate</a>
             </li>
+		    <li class="nav-item">
+              <a class="nav support rounded nav-link navigation-headlines" href="https://gofund.me/07c689f0">Support us!</a>
+            </li>
           </ul>
+		   <ul class="navbar-nav">
+			<li class="nav-item">
+              <a class="nav login rounded nav-link navigation-headlines" href="signup.html">Sign up</a>
+            </li>
+		   </ul>
         </div>
       </div>
     </nav>
     <!-- End of navigation bar -->
+
 
     <section class="container my-4">
      
@@ -182,25 +181,29 @@
     </header>
     <!-- End of hero section -->
 
-    <!-- A footer with socials -->
-    <footer class="shadow-lg mt-auto py-4 bg-body">
+  <!-- A footer with socials -->
+    <footer class="footer shadow-lg mt-auto py-4 bg-body">
       <div class="container d-flex justify-content-between align-items-center">
         <p>
-          © 2020&ndash;2021 &mdash; Breda University of Applied Sciences
+          © 2023 &ndash; Breda University of Applied Sciences
         </p>
         <ul class="list-unstyled d-flex align-items-center opacity-75">
           <li>
             <a href="https://www.facebook.com/profile.php?id=100090979637618" target="_blank">
               <img class="m-2" src="images/facebook.svg" alt="Follow us on" width="26">
             </a>
-			</li>
-         
+          </li>
           <li>
             <a href="https://www.instagram.com/_mingle_brand/" target="_blank">
               <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
             </a>
           </li>
-        </ul>
+		 <li>
+            <a href="https://gofund.me/07c689f0" target="_blank">
+              <img class="m-2" src="images/GoFundMelogo.svg" alt="Support us on gofundme!" height="24">
+            </a>
+		  </li> 
+		 </ul>
       </div>
     </footer>
     <!-- End of the grid -->

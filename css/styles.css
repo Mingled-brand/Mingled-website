@@ -240,3 +240,16 @@ h2 {
 	margin-left: 50px;
 }
 
+.support {
+	background-color: #F55355;
+	margin: auto !important;
+}
+
+.login {
+	background-color: #F2E8D5;
+	margin: auto !important;
+	color: #022859;
+}
+.signin {
+  text-align: right !important;
+}
