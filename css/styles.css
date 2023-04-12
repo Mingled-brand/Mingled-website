@@ -205,7 +205,7 @@ body, html {
 }
 
 .colorpalette-yellow {
-	color: #D99B29
+	color: #D99B29 !important;
 }
 
 .colorpalette-white {
@@ -270,8 +270,8 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #F55355;
-  color: white;
+  background-color: #F2E8D5;
+  color: #022859;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -286,6 +286,32 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .form {
   border-radius: 5px;
-  background-color: #D99B29;
+  background-color: #022859;
   padding: 20px;
+}
+
+.submit {
+  background-color: #D99B29 !important;
+  color: #F2E8D5;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popupbg {
+	background-color: #D99B29 !important;
+}
+
+.margin-top {
+	margin-top:15px;
+}
+
+.margin-bottom {
+	margin-bottom: 15px;
+}
+
+.gradient {
+	background: rgb(242,232,213);
+    background: linear-gradient(180deg, rgba(242,232,213,1) 30%, rgba(245,83,85,1) 100%);
 }
