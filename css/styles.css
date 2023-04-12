@@ -315,3 +315,115 @@ input[type=submit]:hover {
 	background: rgb(242,232,213);
     background: linear-gradient(180deg, rgba(242,232,213,1) 30%, rgba(245,83,85,1) 100%);
 }
+.overlay_flight_traveldil {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay_flight_traveldil:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup_flight_travlDil {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+.popup_flight_travlDil .close_flight_travelDl {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup_flight_travlDil .content_flightht_travel_dil {
+  max-height: 30%;
+  overflow: auto;
+}
+.flip-card-horizontal1, .flip-card-vertical1 {
+  width: 400px;
+  height: 200px;
+  background-color: transparent;
+  perspective: 1000px; /* Diese Zeile entfernen, wenn Sie keinen 3D-Effekt wünschen. */
+}
+
+/* In diesem Container werden die Flip-Cards (Front- und Rückseite) platziert. */
+.flip-card-inner {
+  box-shadow: 10px 20px 15px #674799;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Hier wird der Flip definiert. Die Drehung erfolgt HORIZONTAL. */
+.flip-card-horizontal:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Eine weitere Definition für den Flip, wenn die Drehung VERTIKAL geschehen soll. */
+.flip-card-vertical:hover 
+
+.flip-card-inner {
+  transform: rotateX(180deg);
+}
+
+/* Dieser Container definiert die Vorder- und Rückseite der Flip-Cards. */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Wenn Sie kein Bild für die Vorderseite der Flip-Card verwenden, können Sie hier CSS-Angaben einfügen. */
+.flip-card-front {
+	background-color: #F2E8D5;
+/* Hier allfälligen CSS-Code platzieren */
+}
+
+/* Der folgende Code definiert die Ansicht der Flip-Card-Rückseite. */
+.flip-card-back {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px ;
+  padding-top: 20px;
+  background-color: #F2E8D5;
+}
+  
+/* Hier definieren Sie die Rückseite der Flip-Card für die HORIZONTALE Drehung.  */
+.flip-card-horizontal .flip-card-back {
+  transform: rotateY(180deg);
+}
+
+/* Hier definieren Sie die Rückseite der Flip-Card für die VERTIKALE Drehung.  */
+.flip-card-vertical .flip-card-back {
+  transform: rotateX(180deg);
+}
+
+/* Der Button auf der Rückseite wird mit folgenden Zeilen definiert. */
+.flip-button {
+  cursor: pointer;
+  background-color: #293280;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 22px;
+  border-radius: 10px;
+  border: 0px;
+}
