@@ -321,6 +321,20 @@ input[type=submit]:hover {
 	background: rgb(242,232,213);
     background: linear-gradient(180deg, rgba(242,232,213,1) 30%, rgba(245,83,85,1) 100%);
 }
+
+.gradient2 {
+    background: rgb(242,232,213);
+    background: linear-gradient(0deg, rgba(242,232,213,1) 30%, rgba(245,83,85,1) 100%);
+}
+
+.marginsupport {
+	margin-top: 1px;
+}
+
+.bg-blue {
+	background-color: #022859;
+}
+
 .overlay_flight_traveldil {
   position: fixed;
   top: 0;
