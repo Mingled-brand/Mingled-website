@@ -57,6 +57,12 @@ footer a:hover {
 .bg-light {
 	background-color: #F55355 !important
 }
+
+.signupbutton{
+ color: white;
+ background-color: #D99B29 !important;
+}
+
 body, html {
   height: 100%;
 }
