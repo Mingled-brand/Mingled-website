@@ -84,6 +84,10 @@ body, html {
 	color: #FFFFFF
 }
 
+.white {
+	color: #FFFFFF !important;
+}
+
 /*this class here means, that if you hover over the terms in the navbar, it doesn´t turn black, but now white*/
 .nav:hover {
 	color: #FFFFFF; 
