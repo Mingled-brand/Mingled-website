@@ -211,7 +211,11 @@ body, html {
 }
 
 .colorpalette-blue {
-	color: #022859
+	color: #022859 !important;
+}
+
+.bg-ourblue {
+	background-color: #022859 !important;
 }
 
 .colorpalette-yellow {
@@ -262,6 +266,10 @@ h2 {
 }
 .signin {
   text-align: right !important;
+}
+
+.marginsmall {
+	margin-top: 1px; 
 }
 
 /*try out contact form on about us page*/
@@ -450,4 +458,13 @@ input[type=submit]:hover {
   font-size: 22px;
   border-radius: 10px;
   border: 0px;
+}
+
+a {
+	text-decoration: none; 
+}
+
+.bg-gradient-minglemaker {
+	background: rgb(242,232,213);
+    background: linear-gradient(180deg, rgba(242,232,213,1) 0%, rgba(2,40,89,1) 20%);
 }
