@@ -20,7 +20,7 @@
     <!-- End of Google Analytics code -->
 
   </head>
-  <body class="h-100 d-flex flex-column">
+  <body class="h-50 d-flex flex-column marginsmall">
 
   <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -120,7 +120,7 @@
     </section>
 
     <!-- Start of section adapted from https://getbootstrap.com/docs/5.1/examples/album/ -->
-    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
+    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid text-light bg-ourblue bg-gradient-minglemaker">
       <div class="row">
         <div class="col-md-8 col-lg-6 mx-auto py-5">
           <h1><b class="heading-font colorpalette-red font-size"> MINGLE-MAKER</b></h1>
@@ -129,7 +129,37 @@
 		  <h3 class="heading-font"> How does it work?</h3>
 		  <p> You will answer questions in our questionaire about your personal interests, hobbies, characteristics and demographics. We are in touch with several communities all over the place in the Netherlands, who also gave us their values, interests and hobbies. According to that, we will match you to your most fitting group.</p>
           <p class="mt-5">
-            <a href="#" class="btn btn-lg btn-warning m-1 d-block d-sm-inline">Try out now!</a>
+			  <!-- Button trigger modal -->
+					<button type="button" class="btn signupbutton" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+					  Try out now!
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+					  <div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content">
+						  <div class="modal-header popupbg colorpalette-white">
+							<h1 class="modal-title fs-5" id="staticBackdropLabel">To participate in the survey, please give us your contact details!</h1>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						  </div>
+						  <div class="modal-body">
+							 <div class="modal-body colorpalette-yellow">
+        							<label for="name"><b>Your Username</b></label>
+		   						    <input type="text" placeholder="Enter Your Username" name="username" required>
+							 
+		  							<label for="email"><b>Email</b></label>
+									<input type="text" placeholder="Enter Email" name="email" required>
+							   <p> We will come back to you as soon as possible!</p> 
+							  </div>
+							 
+          
+						  </div>
+						  <div class="modal-footer">
+							<button type="button" class="btn white" data-bs-dismiss="modal">Understood</button>
+				         </div>
+    </div>
+  </div>
+</div>
           </p>	
 		  <h3 class="heading-font">&nbsp;</h3>
 		  <h3 class="heading-font"> Example questions</h3>
