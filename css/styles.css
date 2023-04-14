@@ -28,6 +28,9 @@ footer a:hover {
 	opacity: .5;
 }
 
+.alignleft {
+	text-align: left;
+}
 /* Corporate navbar */
 
 #navbar-corporate a.active {
