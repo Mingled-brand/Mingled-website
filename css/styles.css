@@ -474,3 +474,8 @@ a {
 .backgroundcolor-purple {
 	background-color: #976099;
 }
+
+.imgsize {
+	max-width: 50%; 
+	max-height: 50%;
+}
